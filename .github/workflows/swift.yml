@@ -8,4 +8,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Run SwiftLint
-        run: ./swiftlint lint --config .swiftlint.yml
+        run: swiftlint lint --path .swiftlint.yml
