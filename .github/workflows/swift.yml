@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Run SwiftLint
-        run: swiftlint .swiftlint.yml
+        run: .swiftlint.yml
 
 
         #run: swiftlint lint --path .swiftlint.yml
