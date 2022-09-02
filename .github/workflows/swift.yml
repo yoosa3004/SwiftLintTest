@@ -5,8 +5,6 @@ on:
       - '.github/workflows/swift.yml'
 jobs:
   echo:
-     runs-on: macos-latest
-     steps:
-     - uses: actions/checkout@v1
-     - name: testtesttest
-     - run: echo Hello, World!
+    runs-on: macos-latest
+    steps:
+      - run: echo 'Hello, GitHub Actions!'
