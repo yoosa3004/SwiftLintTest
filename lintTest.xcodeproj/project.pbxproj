@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D76B2947B8957E3BBD0107 /* Pods_lintTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E40B8CB2311C57B966693E8 /* Pods_lintTest.framework */; };
+		02BADE7E28C1F2EF005A794C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 02BADE7D28C1F2EF005A794C /* .swiftlint.yml */; };
 		02CF351528C1F02300067F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF351428C1F02300067F5E /* AppDelegate.swift */; };
 		02CF351728C1F02300067F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF351628C1F02300067F5E /* SceneDelegate.swift */; };
 		02CF351928C1F02300067F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF351828C1F02300067F5E /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02BADE7D28C1F2EF005A794C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		02CF351128C1F02300067F5E /* lintTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CF351428C1F02300067F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CF351628C1F02300067F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		02CF351D28C1F02500067F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02CF352028C1F02500067F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02CF352228C1F02500067F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BAF49BB25699E1FF882A416 /* Pods-lintTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintTest.release.xcconfig"; path = "Target Support Files/Pods-lintTest/Pods-lintTest.release.xcconfig"; sourceTree = "<group>"; };
+		288D2C29BD6BB5076AEF7B71 /* Pods-lintTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintTest.debug.xcconfig"; path = "Target Support Files/Pods-lintTest/Pods-lintTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9E40B8CB2311C57B966693E8 /* Pods_lintTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D76B2947B8957E3BBD0107 /* Pods_lintTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +47,11 @@
 		02CF350828C1F02300067F5E = {
 			isa = PBXGroup;
 			children = (
+				02BADE7D28C1F2EF005A794C /* .swiftlint.yml */,
 				02CF351328C1F02300067F5E /* lintTest */,
 				02CF351228C1F02300067F5E /* Products */,
+				CE465B62176D5491441F0E0C /* Pods */,
+				DC38D23560599B942CFFEF7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +77,23 @@
 			path = lintTest;
 			sourceTree = "<group>";
 		};
+		CE465B62176D5491441F0E0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				288D2C29BD6BB5076AEF7B71 /* Pods-lintTest.debug.xcconfig */,
+				1BAF49BB25699E1FF882A416 /* Pods-lintTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC38D23560599B942CFFEF7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E40B8CB2311C57B966693E8 /* Pods_lintTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02CF352528C1F02500067F5E /* Build configuration list for PBXNativeTarget "lintTest" */;
 			buildPhases = (
+				D169CBDCAF6656845088C077 /* [CP] Check Pods Manifest.lock */,
 				02CF350D28C1F02300067F5E /* Sources */,
 				02CF350E28C1F02300067F5E /* Frameworks */,
 				02CF350F28C1F02300067F5E /* Resources */,
+				02BADE7C28C1F1DA005A794C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BADE7E28C1F2EF005A794C /* .swiftlint.yml in Resources */,
 				02CF352128C1F02500067F5E /* LaunchScreen.storyboard in Resources */,
 				02CF351E28C1F02500067F5E /* Assets.xcassets in Resources */,
 				02CF351C28C1F02300067F5E /* Main.storyboard in Resources */,
@@ -132,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02BADE7C28C1F1DA005A794C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n\n";
+		};
+		D169CBDCAF6656845088C077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lintTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02CF350D28C1F02300067F5E /* Sources */ = {
@@ -284,12 +356,13 @@
 		};
 		02CF352628C1F02500067F5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288D2C29BD6BB5076AEF7B71 /* Pods-lintTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M3L95Q3GYM;
+				DEVELOPMENT_TEAM = 6GM235HJ3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = lintTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,12 +385,13 @@
 		};
 		02CF352728C1F02500067F5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAF49BB25699E1FF882A416 /* Pods-lintTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M3L95Q3GYM;
+				DEVELOPMENT_TEAM = 6GM235HJ3Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = lintTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
