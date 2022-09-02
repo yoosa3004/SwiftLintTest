@@ -11,5 +11,4 @@ disabled_rules: #rules identifiers to exclude from running
   - todo
 identifier_name:
   allowed_symbols: "_"
-  min_length:
-    error: 3
+  min_length: 3
