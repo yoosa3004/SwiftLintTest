@@ -9,10 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var test:Any?
+    var st:Any?
+    var aaaa: String?
     
     func abc(a:String, b:String) {
-        print("dkdkdkdkdkdkdkdkdk")
+        print("dkdkdkdkdkdkdkdkdkasdjposadjopasdjopdsjop")
     }
     
     override func viewDidLoad() {
