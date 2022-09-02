@@ -2,7 +2,7 @@ name: SwiftLint
 on:
   pull_request:
     paths:
-      - '.github/workflows/swiftlint.yml'
+      - '.github/workflows/swift.yml'
 jobs:
   echo:
      runs-on: macos-latest
