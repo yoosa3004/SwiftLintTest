@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     var test:Any?
     
     func abc(a:String, b:String) {
-        
+        print("dkdkdkdkdkdkdkdkdk")
     }
     
     override func viewDidLoad() {
