@@ -7,4 +7,5 @@ jobs:
   echo:
     runs-on: macos-latest
     steps:
-      - run: echo 'Hello, GitHub Actions!'
+      - name: Run SwiftLint
+        run: swiftlint --path .swiftlint.yml
