@@ -8,4 +8,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Run SwiftLint
-        run: swiftlint --path .swiftlint.yml
+        run: swiftlint --path SwiftLintTest/.swiftlint.yml
