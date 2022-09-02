@@ -7,5 +7,6 @@ jobs:
   echo:
      runs-on: macos-latest
      steps:
-      - name: Run SwiftLint
-        run: .swiftlint.yml
+     - uses: actions/checkout@v1
+     - name: testtesttest
+     - run: echo Hello, World!
