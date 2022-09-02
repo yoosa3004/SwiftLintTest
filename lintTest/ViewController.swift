@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var test:Any?
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.아아아아아아
