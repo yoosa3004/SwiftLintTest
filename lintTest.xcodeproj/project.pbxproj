@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00D76B2947B8957E3BBD0107 /* Pods_lintTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E40B8CB2311C57B966693E8 /* Pods_lintTest.framework */; };
 		02BADE7E28C1F2EF005A794C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 02BADE7D28C1F2EF005A794C /* .swiftlint.yml */; };
+		02BADE8028C20E81005A794C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BADE7F28C20E81005A794C /* ViewController2.swift */; };
 		02CF351528C1F02300067F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF351428C1F02300067F5E /* AppDelegate.swift */; };
 		02CF351728C1F02300067F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF351628C1F02300067F5E /* SceneDelegate.swift */; };
 		02CF351928C1F02300067F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CF351828C1F02300067F5E /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		02BADE7D28C1F2EF005A794C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		02BADE7F28C20E81005A794C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		02CF351128C1F02300067F5E /* lintTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CF351428C1F02300067F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CF351628C1F02300067F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				02CF351D28C1F02500067F5E /* Assets.xcassets */,
 				02CF351F28C1F02500067F5E /* LaunchScreen.storyboard */,
 				02CF352228C1F02500067F5E /* Info.plist */,
+				02BADE7F28C20E81005A794C /* ViewController2.swift */,
 			);
 			path = lintTest;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02CF351928C1F02300067F5E /* ViewController.swift in Sources */,
+				02BADE8028C20E81005A794C /* ViewController2.swift in Sources */,
 				02CF351528C1F02300067F5E /* AppDelegate.swift in Sources */,
 				02CF351728C1F02300067F5E /* SceneDelegate.swift in Sources */,
 			);

@@ -11,7 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Run SwiftLint
+        with:
+           args: --force-exclude
         run: swiftlint lint
+        env:
+          DIFF_BASE: ${{ github.base_ref }}
+
 
 
         #run: swiftlint lint --path .swiftlint.yml
