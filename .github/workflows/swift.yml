@@ -1,8 +1,8 @@
 name: SwiftLint
 on: pull_request
     paths:
-      #- '.github/workflows/swift.yml'
-      #- '.swiftlint.yml'
+      - '.github/workflows/swift.yml'
+      - '.swiftlint.yml'
       - '**/*.swift'
 jobs:
   echo:
